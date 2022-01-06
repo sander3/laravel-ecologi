@@ -29,6 +29,10 @@ class EcologiServiceProvider extends ServiceProvider
         $this->offerPublishing();
 
         $this->app->singleton(EcologiContract::class, Ecologi::class);
+
+        if ($this->app->config['ecologi']['test']) {
+            $this->app->extend(Ecologi::class, fn (EcologiContract $e) => $e->test());
+        }
     }
 
     /**
