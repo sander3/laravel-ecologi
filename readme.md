@@ -1,4 +1,4 @@
-# Help restore the planet using the Ecologi API
+# 🌍 Help restore the planet using the Ecologi API
 
 [![tests](https://github.com/sander3/laravel-ecologi/workflows/Laravel/badge.svg)](https://github.com/sander3/laravel-ecologi/actions?query=workflow%3ALaravel)
 
@@ -54,7 +54,7 @@ $carbonOffset = $ecologi->getCarbonOffset('sander');
 
 ```
 
-### Purchase trees or carbon offset
+### 🌳 Purchase trees or carbon offset
 
 ```php
 <?php
